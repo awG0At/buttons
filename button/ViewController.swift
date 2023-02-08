@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        // Do any additional setup after loading the view..
         redBtn.addTarget(self, action: #selector(redButtonPress(button:)), for: .touchUpInside)
         greenBtn.addTarget(self, action: #selector(greenButtonPress(button:)), for: .touchUpInside)
         blueBtn.addTarget(self, action: #selector(blueButtonPress(button:)), for: .touchUpInside)
